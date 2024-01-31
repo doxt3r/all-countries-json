@@ -1,0 +1,33 @@
+repo_name: doxt3r/all-countries-json
+report_id: 0fb203612b85bb31c5e505d6f6986ddb
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:37:48+00:00'
+requested_by: wiyoe
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/doxt3r/all-countries-json
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/doxt3r/all-countries-json/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: recep_hidir
+  last_updated_on: 2018-03-07 07:30:44.000000000 Z
